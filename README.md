@@ -1,8 +1,8 @@
-# Pironman MQTT Helper
+# Pironman Home Assistant Link
 
-Pironman MQTT Helper is a Python package that helps to manage the MQTT communication with a Home Assistant server.
+Pironman Home Assistant Link is a Python package that helps to manage the MQTT communication with a Home Assistant server.
 
-- [Pironman MQTT Helper](#pironman-mqtt-helper)
+- [Pironman Home Assistant Link](#pironman-home-assistant-link)
   - [Installation](#installation)
   - [About SunFounder](#about-sunfounder)
   - [Contact us](#contact-us)
@@ -13,14 +13,14 @@ Pironman MQTT Helper is a Python package that helps to manage the MQTT communica
 # Install development dependencies
 apt-get -y install python3 python3-pip python3-venv git
 
-# Clone the repository
-git clone https://github.com/sunfounder/pm_mqtt_helper.git
-
 # Create a virtual environment
 python3 -m venv venv
 
 # Install the package
 pip3 install build
+
+# Clone the repository
+git clone https://github.com/sunfounder/pm_mqtt_helper.git
 
 # Activate the virtual environment
 source venv/bin/activate

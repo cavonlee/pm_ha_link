@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm_mqtt_helper"
+authors = [
+  { name="SunFounder", email="service@sunfounder.com" },
+]
+description = "Pironman MQTT Helper"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU License",
+  "Operating System :: OS Independent",
+]
+version = "0.0.1"
+
+dependencies = [
+]
+
+[tool.setuptools]
+packages = ["pm_mqtt_helper"]
+
+[project.urls]
+"Homepage" = "https://github.com/sunfounder/pm_mqtt_helper"
+"Bug Tracker" = "https://github.com/sunfounder/pm_mqtt_helper/issues"
+
+[project.scripts]
+pm_mqtt_helper = "pm_mqtt_helper:main"
